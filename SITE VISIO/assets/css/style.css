@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+html {
+    background-image: url(../img/road-2.jpg);
+    padding-top: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "Numans", sans-serif;
+}
+
+#wrapper {
+    background-color: rgba(255, 255, 255, 0.70) !important;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-size: cover;
+    box-shadow: 0em 0.3em 1em #000;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    max-width: 1780px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    overflow: auto;
+    z-index: 10;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1, h3 {
+    text-align: center;
+    align-self: stretch;
+}
+
+main {
+    align-self: stretch;
+    position: relative;
+}
+    
+.cont {   
+    display: flex;
+    grid-template-columns: 2fr, 1fr;
+}
+
+.img_visio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 50px;
+    width: 874px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0%;
+}
+
+.card {
+    height: 370px;
+    width: 400px;
+    background-color: rgba(20, 49, 107, 0.7) !important;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #f8621c;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #f8621c;
+    width: 150px;
+    height: 45px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: #FF9900;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 5px;
+
+}
+.links a:hover {
+   color: #FF9900;
+    
+}
+
+footer {
+    text-align:center;
+    align-self: stretch;
+}
