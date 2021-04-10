@@ -43,14 +43,8 @@ h1, h3 {
     align-self: stretch;
 }
 
-main {
-    align-self: stretch;
-    position: relative;
-}
-    
-.cont {   
+main {   
     display: flex;
-    grid-template-columns: 2fr, 1fr;
 }
 
 .img_visio {
@@ -61,12 +55,6 @@ main {
     width: 874px;
     max-width: 100%;
     max-height: 100%;
-}
-
-p {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    text-align: justify;
 }
 
 .container {
